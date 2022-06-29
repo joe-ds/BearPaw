@@ -2,9 +2,9 @@
 A pure PowerShell-based git backup system.
 
 # Install
-Install the PSM1 file as a module.
-Edit the first three lines as desired.
-Run `Initialize-Backup` the first time.
+ - Install the PSM1 file as a module.
+ - Edit the first three lines as desired. You'll need a repo to back up to and restore from.
+ - Run `Initialize-Backup` the first time.
 
 # Use
 Run `Add-Backup <fileorfolder>` to add files and `Remove-Backup <fileorfolder>` to remove files.
